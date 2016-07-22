@@ -18,7 +18,6 @@ public class MethodReference {
 		list.sort((s1, s2) -> s1.compareTo(s2));
 		list.forEach(System.out::println);
 
-		char c = 82;
 		char[] arr = { (char) 82, (char) 117, (char) 115, (char) 115, (char) 105, (char) 97, (char) 110, (char) 95 };
 		System.out.println(Arrays.toString(arr));
 	}
